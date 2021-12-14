@@ -1,0 +1,62 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="451"
+  height="34"
+  viewBox="0 0 451 34"
+>
+  <defs>
+    <mask id="eiavb" width="2" height="2" x="-1" y="-1">
+      <path fill="#fff" d="M10 10h431v14H10z" />
+      <path
+        d="M10 24h149v-.976l.354.345 12.353-12.058H441v-.975H172l-.354-.346-.353.346H171v.286l-12.354 12.057.354.345H10z"
+      />
+    </mask>
+    <filter
+      id="eiava"
+      width="471"
+      height="54"
+      x="-10"
+      y="-10"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset in="SourceGraphic" result="FeOffset1056Out" />
+      <feGaussianBlur
+        in="FeOffset1056Out"
+        result="FeGaussianBlur1057Out"
+        stdDeviation="4 4"
+      />
+    </filter>
+  </defs>
+  <g>
+    <g>
+      <g filter="url(#eiava)">
+        <path
+          fill="none"
+          d="M10 24h149v-.976l.354.345 12.353-12.058H441v-.975H172l-.354-.346-.353.346H171v.286l-12.354 12.057.354.345H10z"
+          mask='url("#eiavb")'
+        />
+        <path
+          fill="#2e1415"
+          fill-opacity=".25"
+          d="M10 24h149v-.976l.354.345 12.353-12.058H441v-.975H172l-.354-.346-.353.346H171v.286l-12.354 12.057.354.345H10z"
+        />
+      </g>
+      <g filter="url(#eiava)">
+        <path
+          fill="none"
+          d="M10 24h149v-.976l.354.345 12.353-12.058H441v-.975H172l-.354-.346-.353.346H171v.286l-12.354 12.057.354.345H10z"
+          mask='url("#eiavb")'
+        />
+        <path
+          fill="#2e1415"
+          fill-opacity=".25"
+          d="M10 24h149v-.976l.354.345 12.353-12.058H441v-.975H172l-.354-.346-.353.346H171v.286l-12.354 12.057.354.345H10z"
+        />
+      </g>
+      <path
+        fill="#e7b66a"
+        d="M10 24h149v-.976l.354.345 12.353-12.058H441v-.975H172l-.354-.346-.353.346H171v.286l-12.354 12.057.354.345H10z"
+      />
+    </g>
+  </g>
+</svg>
